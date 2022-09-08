@@ -54,7 +54,7 @@ GRANT Create Temporary Tables, References, Reload, Replication Client, Replicati
         - แก้ไข `database` ให้เป็นชื่อ database HIS ที่ใช้งานอยู่ \
         - ถ้ามีการแก้ไขชื่อ user (`agentv3`) หรือ host (`%`)  ในข้อ 2 ให้แก้ตรงนี้ตามที่แก้ไขไว้ 
        
-   3. นำ username และ password ที่สร้างขึ้นมาใหม่ ไปแก้ไขในไฟล์ config.ini
+   3. นำ username และ password ที่สร้างขึ้นมาใหม่ ไปแก้ไขในไฟล์ `config.ini` ที่อยู่ในโฟลเดอร์ `volumes`
    
    4. เรียกคำสั่ง `docker-compose restart` เพื่อให้ service เริ่มทำงานโดยใช้ค่าใหม่
 # Access Token
