@@ -10,6 +10,7 @@
 docker login -u AGENT -p mSAovKkmiFoz9NjjssU9 registry.gitlab.com/datacenter7/agent-version-three` \
 docker pull registry.gitlab.com/datacenter7/agent-version-three:latest
    ```
+หรือเรียกสคริปต์จาก `./update.sh` ก็ได้
 
 # ขั้นตอนการติดตั้ง
 
