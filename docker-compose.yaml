@@ -1,0 +1,7 @@
+version: "3"
+services:
+  agent:
+    restart: unless-stopped
+    image: registry.gitlab.com/datacenter7/agent-version-three:latest
+    volumes:
+      - ./volumes/config.ini:/app/config.ini
