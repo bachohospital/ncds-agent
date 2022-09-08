@@ -5,12 +5,11 @@
 [Agent ](https://ncds.moph.go.th/agent/)
 
 # ขั้นตอนการเตรียมก่อนติดตั้ง
-   1. อัพเดท docker image ให้เป็นตัวล่าสุด ด้วย สองคำสั่งนี้
+   1. อัพเดท docker image ให้เป็นตัวล่าสุด ด้วยสคริปต์จาก `./update.sh` หรือเรียกคำสั่งนี้ 
    ```
-docker login -u AGENT -p mSAovKkmiFoz9NjjssU9 registry.gitlab.com/datacenter7/agent-version-three` \
+docker login -u AGENT -p mSAovKkmiFoz9NjjssU9 registry.gitlab.com/datacenter7/agent-version-three` &
 docker pull registry.gitlab.com/datacenter7/agent-version-three:latest
    ```
-หรือเรียกสคริปต์จาก `./update.sh` ก็ได้
 
 # ขั้นตอนการติดตั้ง
 
